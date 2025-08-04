@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Mystery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="titre">
+        <h1>Devine le personnage</h1>
+        </div>
+
+        <div class="imageperso">
+            <img src="images/isaac.webp" alt="" id="personnagesImage">
+        </div>
+        <div class="inputcustom">
+        <input type="text" id="championInput" placeholder="Tape le nom d'un personnage">
+        </div>
+        <div class="buttoncustom">
+        <button onclick="trouvePersonnages()">Valider</button>
+        <button onclick="recommencerJeu()">Recommencer</button>
+        </div>
+        <p id="resultat"></p>
+        <ul id="attemptsList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -87,3 +87,11 @@ ul{
 li{
     margin: 1rem;
 }
+
+#titrejeu  {
+    color: white;
+}
+.imglogo img{
+    width: 250px;
+    height: 200px;
+}

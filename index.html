@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixel Mystery</title>
+    <title>Enjirule</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <div class="imglogo">
+            <img src="https://i.postimg.cc/vB7jhJC5/1c48f4b9-1d41-46f2-9339-d3c7a6480bfa.png" alt="">
+        </div>
         <div class="titre">
         <h1>Devine le personnage</h1>
         </div>
@@ -16,13 +19,15 @@
             <img src="images/isaac.webp" alt="" id="personnagesImage">
         </div>
         <div class="inputcustom">
+            <p id="resultat"></p>
+            <p id="titrejeu"></p>
         <input type="text" id="championInput" placeholder="Tape le nom d'un personnage">
         </div>
         <div class="buttoncustom">
         <button onclick="trouvePersonnages()">Valider</button>
         <button onclick="recommencerJeu()">Recommencer</button>
         </div>
-        <p id="resultat"></p>
+        
         <ul id="attemptsList"></ul>
     </div>
 
